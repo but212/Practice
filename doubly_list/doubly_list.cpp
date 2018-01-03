@@ -14,8 +14,10 @@ bool is_nullptr(T ptr)
 }
 
 bool compare_no = true;
-bool compare_fn(int a, int b) { return a > b; }
-bool comparison(int a, int b) { return compare_fn(a, b) == compare_no; }
+bool comparison(int a, int b)
+{
+    return a > b == compare_no;
+}
 
 void print_elem_not_found()
 {
