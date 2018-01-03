@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cassert>
-#include <conio.h>
 
 void insert_data(int x);
 void display();
